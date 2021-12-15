@@ -3,5 +3,3 @@ LABEL maintainer="albert"
 RUN ["install2.r", "dplyr", "lcmm", "mvtnorm", "pillar", "survival"]
 WORKDIR /payload/
 CMD ["R"]
-
- 
