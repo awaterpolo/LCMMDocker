@@ -1,7 +1,5 @@
 FROM rocker/r-ver:4.0.5
 LABEL maintainer="albert"
-RUN ["install2.r", "dplyr", "lcmm", "mvtnorm", "pillar", "survival", "rlecuyer","caret","stringr",
-"foreach", "doParallel","iterators","doMC","doRNG",
-"future", "future.apply","doFuture","future.callr","furrr"]
+RUN ["install2.r", "dplyr", "lcmm", "mvtnorm", "pillar", "survival", "rlecuyer","caret","stringr","foreach","doparallel","iterators","doMC","doRNG","future", "future.apply","doFuture","future.callr","furrr"]
 WORKDIR /payload/
 CMD ["R"] 
