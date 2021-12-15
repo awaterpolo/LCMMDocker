@@ -4,4 +4,4 @@ RUN ["install2.r", "dplyr", "lcmm", "mvtnorm", "pillar", "survival", "rlecuyer",
 "foreach", "doParallel","iterators","doMC","doRNG",
 "future", "future.apply","doFuture","future.callr","furrr"]
 WORKDIR /payload/
-CMD ["R"]
+CMD ["R"] 
